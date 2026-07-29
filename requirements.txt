@@ -1,3 +1,7 @@
 flask
 flask-cors
-google-generativeai
+flask-limiter
+groq
+google-genai
+pymupdf
+python-dotenv
