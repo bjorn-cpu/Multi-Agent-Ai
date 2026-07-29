@@ -1,5 +1,6 @@
 # Multi-Agent AI
-##A local multi-agent AI assistant with 5 specialist agents built with Python, Flask, and Groq.
+A local multi-agent AI assistant with 5 specialist agents built with Python, Flask, and Groq.
+
 
 ![Multi-Agent AI Screenshot](screenshots/ui1.png)
 ![Multi-Agent AI Screenshot 2](screenshots/ui2.png)
