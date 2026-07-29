@@ -1,5 +1,5 @@
 # Multi-Agent AI
-A local multi-agent AI assistant with 5 specialist agents built with Python, Flask, and Groq.
+##A local multi-agent AI assistant with 5 specialist agents built with Python, Flask, and Groq.
 
 ![Multi-Agent AI Screenshot](screenshots/ui1.png)
 ![Multi-Agent AI Screenshot 2](screenshots/ui2.png)
@@ -108,17 +108,29 @@ http://localhost:5000
 ---
 ## How the Agentic Loop Works
 User query
+
 │
+
 ▼
+
 Groq model receives query + tool definitions
+
 │
+
 ├── calls web_search → gets results → feeds back
+
 │
+
 ├── calls fetch_page → reads content → feeds back
+
 │
+
 ├── calls summarize_findings → structures output
+
 │
+
 └── end_turn → streams final result to browser
+
 The model decides autonomously how many searches to run,
 which pages to read, and when it has enough information to answer.
 ---
