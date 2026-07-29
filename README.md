@@ -1,7 +1,6 @@
 # Multi-Agent AI
 A local multi-agent AI assistant with 5 specialist agents built with Python, Flask, and Groq.
-Each agent runs an autonomous tool-use loop — searching the web, reading pages, and returning
-structured results in real time.
+
 ![Multi-Agent AI Screenshot](screenshots/ui1.png)
 ![Multi-Agent AI Screenshot 2](screenshots/ui2.png)
 ---
@@ -40,21 +39,37 @@ structured results in real time.
 ## Project Structure
 multi-agent-ai/
 ├── server.py # Flask backend
+
 ├── requirements.txt
+
 ├── .env # Your API keys (not committed)
+
 ├── .gitignore
+
 ├── agents/
+
 │ ├── init.py
+
 │ ├── utils.py # Retry logic
+
 │ ├── tavily_search.py # Web search
+
 │ ├── research_agent.py
+
 │ ├── code_agent.py
+
 │ ├── summarizer_agent.py
+
 │ ├── math_agent.py
+
 │ └── wiki_agent.py
+
 ├── static/
+
 │ └── index.html # Frontend UI
+
 └── screenshots/
+
 └── ui.png
 ---
 ## Setup
